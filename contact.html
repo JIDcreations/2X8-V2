@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | 2X8</title>
+  <meta name="description" content="Plan een gesprek van een half uur met 2X8. Vertel waar je tijd verliest of wat je site moet doen. Je krijgt antwoord binnen twee werkdagen.">
+  <link rel="canonical" href="https://2x8.be/contact">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://2x8.be/contact">
+  <meta property="og:title" content="Contact | 2X8">
+  <meta property="og:description" content="Plan een gesprek van een half uur. Antwoord binnen twee werkdagen.">
+  <meta property="og:locale" content="nl_BE">
+  <meta name="theme-color" content="#EAEAE7">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design-system/tokens.css">
+  <link rel="stylesheet" href="design-system/components/bundle.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/paginas.css">
+  <script>
+    (function (d) {
+      d.classList.add("js");
+      if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        d.classList.add("anim", "beweeg");
+        setTimeout(function () { d.classList.remove("anim"); }, 2500);
+      }
+    })(document.documentElement);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "url": "https://2x8.be/contact",
+    "about": { "@id": "https://2x8.be/#studio" }
+  }
+  </script>
+</head>
+<body class="x8">
+  <a class="skip" href="#inhoud">Naar inhoud</a>
+
+  <!-- nav:start -->
+  <header class="nav">
+    <div class="nav__in">
+      <a class="nav__logo" href="index.html" aria-label="2X8, naar de homepage">
+        <span class="x8-logo x8-logo--klein" data-logo><img src="design-system/logo/2x8-logo-inkt.svg" alt="2X8" width="109" height="28"></span>
+      </a>
+      <nav class="nav__links" aria-label="Hoofdmenu">
+        <a href="websites.html">Websites</a>
+        <a href="tools.html">Tools</a>
+        <a href="werk.html">Werk</a>
+        <a href="over-ons.html">Over ons</a>
+      </nav>
+      <a class="x8-knop x8-knop--kleur nav__knop" href="contact.html">Plan een gesprek</a>
+      <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    </div>
+    <div class="menu" id="menu" hidden>
+      <nav class="x8-lijst menu__lijst" aria-label="Menu">
+        <a class="x8-rij" href="websites.html"><span class="x8-rij__woord">Websites</span><span class="x8-rij__vak x8-k-oranje"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#monitor-smartphone"></use></svg></span></a>
+        <a class="x8-rij" href="tools.html"><span class="x8-rij__woord">Tools</span><span class="x8-rij__vak x8-k-hemel"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#widget-5"></use></svg></span></a>
+        <a class="x8-rij" href="werk.html"><span class="x8-rij__woord">Werk</span><span class="x8-rij__vak x8-k-limoen"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#graph-up"></use></svg></span></a>
+        <a class="x8-rij" href="over-ons.html"><span class="x8-rij__woord">Over ons</span><span class="x8-rij__vak x8-k-violet"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#users-group-two-rounded"></use></svg></span></a>
+        <a class="x8-rij" href="contact.html" aria-current="page"><span class="x8-rij__woord">Contact</span><span class="x8-rij__vak x8-k-zon"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#letter"></use></svg></span></a>
+      </nav>
+    </div>
+  </header>
+  <!-- nav:end -->
+
+  <main id="inhoud">
+    <header class="wrap pagina-kop intro">
+      <p class="t-label" data-in>Contact</p>
+      <h1 class="pagina__kop pagina__kop--groot">
+        <span class="lijn"><span>Plan een</span></span>
+        <span class="lijn"><span>gesprek.</span></span>
+      </h1>
+      <p class="t-lead pagina__lead" data-in>Een half uur, zonder verplichting. Vertel waar je tijd verliest of wat je site moet doen. Je krijgt antwoord binnen twee werkdagen.</p>
+    </header>
+
+    <section class="wrap contactpagina" aria-label="Contactformulier">
+      <form class="formulier" id="formulier" action="mail.php" method="post" novalidate data-reveal>
+        <div class="melding" data-melding role="status" hidden></div>
+
+        <fieldset class="veld veld--keuze">
+          <legend class="veld__label">Waarover gaat het?</legend>
+          <div class="keuzes">
+            <label class="keuze"><input type="radio" name="type" value="Website" checked><span class="keuze__vak x8-k-oranje"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#monitor-smartphone"></use></svg></span><span>Website</span></label>
+            <label class="keuze"><input type="radio" name="type" value="Tools"><span class="keuze__vak x8-k-hemel"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#widget-5"></use></svg></span><span>Tools</span></label>
+            <label class="keuze"><input type="radio" name="type" value="Gratis pilot"><span class="keuze__vak x8-k-limoen"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#check-circle"></use></svg></span><span>Gratis pilot</span></label>
+            <label class="keuze"><input type="radio" name="type" value="Iets anders"><span class="keuze__vak x8-k-zon"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#letter"></use></svg></span><span>Iets anders</span></label>
+          </div>
+        </fieldset>
+
+        <div class="velden-rij">
+          <p class="veld">
+            <label class="veld__label" for="f-naam">Naam</label>
+            <input class="veld__invoer" id="f-naam" name="naam" type="text" autocomplete="name" required maxlength="120">
+            <span class="veld__fout" data-fout="naam"></span>
+          </p>
+          <p class="veld">
+            <label class="veld__label" for="f-bedrijf">Bedrijf <span class="veld__optie">(mag leeg)</span></label>
+            <input class="veld__invoer" id="f-bedrijf" name="bedrijf" type="text" autocomplete="organization" maxlength="160">
+          </p>
+        </div>
+        <p class="veld">
+          <label class="veld__label" for="f-email">E-mail</label>
+          <input class="veld__invoer" id="f-email" name="email" type="email" autocomplete="email" required maxlength="200">
+          <span class="veld__fout" data-fout="email"></span>
+        </p>
+        <p class="veld">
+          <label class="veld__label" for="f-bericht">Waar verlies je tijd, of wat moet je site doen?</label>
+          <textarea class="veld__invoer" id="f-bericht" name="bericht" rows="6" required minlength="10" maxlength="5000" placeholder="Bijvoorbeeld: ik typ elke offerte over uit mijn mails."></textarea>
+          <span class="veld__fout" data-fout="bericht"></span>
+        </p>
+
+        <p class="veld veld--val" aria-hidden="true">
+          <label for="f-website">Laat dit veld leeg</label>
+          <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </p>
+        <input type="hidden" name="duur" value="0">
+
+        <div class="formulier__voet">
+          <button class="x8-knop x8-knop--kleur formulier__knop" type="submit">Verstuur <span class="x8-knop__symbool" data-symbool="pijl-rechts" data-dikte="18"></span></button>
+          <p class="t-label">Of mail rechtstreeks naar <a href="mailto:hello@2x8.be">hello@2x8.be</a></p>
+        </div>
+      </form>
+
+      <aside class="volg" aria-label="Wat er met je aanvraag gebeurt" data-volg>
+        <div class="volg__kaart">
+          <p class="t-label volg__titel">Je aanvraag</p>
+          <p class="volg__naam" data-volg-naam>Jouw naam</p>
+          <p class="volg__bedrijf t-label" data-volg-bedrijf>Je bedrijf</p>
+          <span class="x8-chip x8-k-oranje" data-volg-type>Website</span>
+        </div>
+        <ol class="volg__stappen">
+          <li data-volg-stap="1"><span class="volg__vak x8-k-zon"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#letter"></use></svg></span><span><strong>Je schrijft ons</strong><br>Naam, e-mail en een paar zinnen.</span></li>
+          <li data-volg-stap="2"><span class="volg__vak x8-k-violet"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#notebook"></use></svg></span><span><strong>Het komt bij ons binnen</strong><br>Automatisch, met een bevestiging naar jou.</span></li>
+          <li data-volg-stap="3"><span class="volg__vak x8-k-hemel"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#clipboard-list"></use></svg></span><span><strong>Antwoord binnen twee werkdagen</strong><br>Van Jasper of Florian zelf.</span></li>
+          <li data-volg-stap="4"><span class="volg__vak x8-k-limoen"><svg class="icoon" aria-hidden="true"><use href="design-system/iconen/solar.svg#phone-calling"></use></svg></span><span><strong>Een gesprek van een half uur</strong><br>Daarna weet je wat er kan.</span></li>
+        </ol>
+        <div class="volg__mensen">
+          <img src="assets/studio/jasper.webp" alt="" width="800" height="1000" loading="lazy">
+          <img src="assets/studio/florian.webp" alt="" width="800" height="1000" loading="lazy">
+          <p class="t-label">Je praat met Jasper of Florian.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- voet:start -->
+  <footer class="voet">
+    <div class="wrap">
+      <div class="voet__rij">
+        <nav class="voet__links" aria-label="Footer">
+          <a href="websites.html">Websites</a>
+          <a href="tools.html">Tools</a>
+          <a href="werk.html">Werk</a>
+          <a href="over-ons.html">Over ons</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="t-label">Gent, België. <a href="mailto:hello@2x8.be">hello@2x8.be</a></p>
+      </div>
+      <span class="x8-logo voet__logo" data-logo><img src="design-system/logo/2x8-logo-inkt.svg" alt="2X8" width="1596" height="412"></span>
+      <p class="t-label voet__klein">&copy; 2026 2X8. Alle rechten voorbehouden. Iconen: <a href="https://www.figma.com/community/file/1166831539721848736">Solar</a> van 480 Design, CC BY 4.0.</p>
+    </div>
+  </footer>
+  <!-- voet:end -->
+
+  <script src="design-system/components/bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/site.js" defer></script>
+  <script src="js/pagina-contact.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# 2X8
+
+> Studio uit Gent van Jasper Impens (design en front-end) en Florian Bracke (development en consultancy). We bouwen websites die klanten brengen en tools die uren werk besparen. Voor kleine Belgische bedrijven, rechtstreeks met de twee mensen die het bouwen.
+
+Contact: hello@2x8.be. Antwoord binnen twee werkdagen. Een eerste gesprek duurt een half uur.
+
+## Diensten
+
+- Websites: onepager vanaf 900 euro, website met meerdere pagina's vanaf 1.900 euro, webshop vanaf 2.900 euro, hosting met updates en onderhoud 350 euro per jaar. Alles excl. btw. Een site kan online staan in 2 dagen.
+- Tools en automatisatie: we kijken hoe een bedrijf werkt, vinden waar het tijd verliest en programmeren dat weg, met de software die het al gebruikt. Voorbeelden: offertes uit een contactformulier, pdf's in plaats van rondgestuurde Excels, routes uit een klantenlijst in Google Sheets, documenten op één plek. Voor de eerste bedrijven is de pilot gratis, in ruil voor cijfers en een case.
+
+## Pagina's
+
+- [Home](https://2x8.be/): 2X8 is een studio uit Gent. We bouwen websites die klanten brengen en tools die uren werk besparen. Allebei leveren ze je meer winst op.
+- [websites](https://2x8.be/websites): Websites die klanten brengen. Wij ontwerpen, bouwen en hosten je site, zodat mensen je vinden en contact opnemen. Een site staat online in 2 dagen.
+- [tools](https://2x8.be/tools): Tools die uren besparen. We kijken hoe je zaak werkt, vinden waar je tijd verliest en programmeren dat weg, met de software die je al gebruikt. Gratis pilot voor de eerste bedrijven.
+- [werk](https://2x8.be/werk): Websites die klanten binnenhalen en tools die werk wegnemen. Al het werk van 2X8, van galeries en webshops tot dashboards en onze eigen geautomatiseerde werking.
+- [over-ons](https://2x8.be/over-ons): 2X8 is Jasper Impens en Florian Bracke uit Gent. Twee mensen, acht bits per byte. Je praat altijd rechtstreeks met wie je site of tool bouwt.
+- [contact](https://2x8.be/contact): Plan een gesprek van een half uur met 2X8. Vertel waar je tijd verliest of wat je site moet doen. Je krijgt antwoord binnen twee werkdagen.
+
+## Werk
+
+- [2X8 zelf](https://2x8.be/work/2x8-zelf): Wat we voor klanten bouwen, draait eerst bij ons. Onze eigen werking loopt van contactformulier tot factuur zonder dat iemand iets overtypt. (Tools, Automatisatie, eigen project, 2026)
+- [Elevator Antwerp](https://2x8.be/work/elevator-antwerp): Een rustige website voor een galerie zonder vaste locatie: hedendaagse kunst, tijdelijke tentoonstellingen en werken die te koop zijn. (Websites, Website, klant: Elevator Antwerp, 2026)
+- [Studio Klei](https://2x8.be/work/studio-klei): Een warme webshop voor een keramiekatelier in Gent: mokken, kommen en vazen, en workshops die je meteen boekt. (Websites, Webshop, klant: Studio Klei, 2026)
+- [Huiskamer](https://2x8.be/work/huiskamer): Een gedeelde plek voor een psycholoog en de cliënten tussen de sessies door, zodat de volgende sessie begint waar de vorige weken ophielden. (Tools, Platform, eigen project, 2026)
+- [Salon Dola](https://2x8.be/work/salon-dola): Een onepager voor een kapsalon in Moerbeke: zwart-wit, één lettertype, en een afspraak die altijd één stap ver is. (Websites, Onepager, klant: Salon Dola, 2026)
+- [Specter](https://2x8.be/work/specter): Een webshop voor een maatkleding-atelier in Antwerpen: negen stuks, geen rek, alles op afspraak. (Websites, Webshop, klant: Specter Atelier, 2026)
+- [Keikoku Atelier](https://2x8.be/work/keikoku): Een rustige, beeldgedreven site voor een architectenbureau dat huizen ontwerpt die honderd jaar moeten meegaan. (Websites, Website, klant: Keikoku Atelier, 2026)
+- [NADIR](https://2x8.be/work/nadir): Een live dashboard dat aandelen opspoort die het diepst gevallen zijn tegenover hun hoogste koers van het voorbije jaar. (Tools, Dashboard, eigen project, 2026)
+- [DLTA](https://2x8.be/work/delta): Een cryptotracker die elke aankoop apart bijhoudt en live winst en verlies berekent, volledig in je browser. (Tools, Dashboard, eigen project, 2026)
+- [EQTY](https://2x8.be/work/eqty): Een Nederlandstalige app die beleggen leert als een proces: een korte quiz, lessen per thema en vragen die bepalen wat je daarna ziet. (Tools, App, eigen project, 2026)
+- [Jasper Impens](https://2x8.be/work/jasper-impens): Geen klantproject, maar het eigen portfolio van Jasper. We tonen het omdat het laat zien hoe we werken als niemand anders de briefing schrijft. (Websites, Portfolio, eigen project, 2026)
+- [WEB.WORK](https://2x8.be/work/web-work): Geen klantproject, maar de site van WEB.WORK, de eigen zaak van Florian. Webdevelopment uit Gent, met een vaste prijs en één aanspreekpunt. (Websites, Website, eigen project, 2026)

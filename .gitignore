@@ -1,0 +1,25 @@
+.DS_Store
+
+# Ruwe schermopnames: te groot voor GitHub. De site gebruikt de *-web.mp4 in assets/video/.
+*.mov
+
+# Mailconfiguratie met de Brevo-sleutel en de BCC-adressen. De echte staat buiten de docroot.
+2x8-mail-config.php
+2x8-mail.log
+
+# Klantgegevens van customers.2x8.be (teksten en wachtwoord-hashes). Deze repo is publiek.
+customers/data/
+
+# Interne notities en inspiratie: blijven lokaal.
+CLAUDE.md
+START-PROMPT.md
+inspiratie/
+
+# Meegekopieerd uit V1 zodat bestaande links blijven werken bij de deploy, maar niet
+# in deze publieke repo: klantpagina's en demo's met gegevens van klanten en prospecten.
+customers/
+salon-dola/
+sanitairverschraegen/
+tiger-auto-parts/
+tke/
+leef-tijd/
